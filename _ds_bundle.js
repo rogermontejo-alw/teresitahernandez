@@ -57,7 +57,8 @@ function Button({
   href,
   onClick,
   type = "button",
-  disabled
+  disabled,
+  style: styleOverride
 }) {
   const base = {
     fontFamily: "var(--font-accent)",
@@ -109,7 +110,8 @@ function Button({
   const style = {
     ...base,
     ...sizes[size],
-    ...variants[variant]
+    ...variants[variant],
+    ...styleOverride
   };
   const Tag = href ? "a" : "button";
   return React.createElement(Tag, {

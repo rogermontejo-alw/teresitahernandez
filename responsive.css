@@ -44,6 +44,7 @@ img { max-width: 100%; }
   }
   .hero-section {
     padding-top: 40px !important;
+    padding-bottom: 56px !important;
   }
 }
 @media (max-width: 420px) {
