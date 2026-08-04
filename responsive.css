@@ -89,12 +89,28 @@ img { max-width: 100%; }
     grid-template-columns: 1fr !important;
     align-items: center !important;
   }
+  .inversion-price-col {
+    max-width: 100% !important;
+    width: 100%;
+  }
+  .inversion-value {
+    white-space: normal !important;
+  }
   .inversion-photo {
+    display: block !important;
     width: 100% !important;
     max-width: 320px !important;
     height: auto !important;
-    margin: 0 auto;
+    margin: 0 auto !important;
     order: -1;
+  }
+}
+@media (max-width: 420px) {
+  .inversion-row {
+    flex-wrap: wrap;
+  }
+  .inversion-value {
+    text-align: left !important;
   }
 }
 

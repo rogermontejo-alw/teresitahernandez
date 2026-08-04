@@ -11,14 +11,14 @@ function Inversion() {
   return (
     <section data-screen-label="06 · Inversión" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
       <div className="inversion-grid" style={{maxWidth:"var(--container-max)",margin:"0 auto",display:"grid",gridTemplateColumns:"1fr 600px",gap:48,alignItems:"end"}}>
-        <div style={{maxWidth:760}}>
+        <div className="inversion-price-col" style={{maxWidth:760}}>
         <Eyebrow>Inversión</Eyebrow>
         <h2 style={{fontSize:"var(--text-display-md)",marginBottom:28}}>Formación de alta especialidad, en pagos accesibles</h2>
         <Card>
           {rows.map((r) => (
-            <div key={r.label} style={{display:"flex",justifyContent:"space-between",gap:16,padding:"14px 0",borderBottom:"1px solid var(--border-subtle)",fontSize:15}}>
+            <div key={r.label} className="inversion-row" style={{display:"flex",justifyContent:"space-between",gap:16,padding:"14px 0",borderBottom:"1px solid var(--border-subtle)",fontSize:15}}>
               <span style={{color:"var(--text-secondary)"}}>{r.label}</span>
-              <span style={{fontWeight:600,whiteSpace:"nowrap"}}>{r.value}</span>
+              <span className="inversion-value" style={{fontWeight:600,whiteSpace:"nowrap",textAlign:"right"}}>{r.value}</span>
             </div>
           ))}
         </Card>
