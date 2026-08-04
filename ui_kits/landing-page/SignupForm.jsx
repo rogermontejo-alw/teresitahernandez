@@ -1,9 +1,7 @@
 const { Input, Button } = window.TeresitaHernNdezEstheticDentistryDesignSystem_0dd396;
 
-// TODO: pega aquí la URL de tu Google Apps Script Web App una vez desplegada
-// (ver GOOGLE_SHEETS_SETUP.md). Mientras esté vacía, el formulario sigue
-// funcionando (redirige a /gracias) pero no guarda nada en Sheets.
-const GOOGLE_SHEETS_ENDPOINT = "";
+// Google Apps Script Web App — ver GOOGLE_SHEETS_SETUP.md
+const GOOGLE_SHEETS_ENDPOINT = "https://script.google.com/macros/s/AKfycbyuk9Q00mgR6so0Ga3PBg7F9M5R9ARseKfwWfJGtGZGFpTM-yil5GjJfS5Rr4eP1U-ezg/exec";
 
 function SignupForm() {
   const [sending, setSending] = React.useState(false);
