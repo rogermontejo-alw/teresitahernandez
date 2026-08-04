@@ -1,0 +1,46 @@
+:root{
+  /* base palette, from brand reference sheet */
+  --navy-900:#0d1b2b;
+  --blue-700:#005092;
+  --blue-400:#30bdf5;
+  --ice-200:#d3e2e5;
+  --paper-100:#f7f5f4;
+  --lime-500:#b1e828;
+  --white:#ffffff;
+
+  /* derived tints/shades for hover/press/borders, kept in-family via oklch mixing */
+  --blue-700-hover: oklch(from var(--blue-700) calc(l - 0.06) c h);
+  --blue-700-press: oklch(from var(--blue-700) calc(l - 0.11) c h);
+  --blue-400-hover: oklch(from var(--blue-400) calc(l - 0.08) c h);
+  --navy-900-hover: oklch(from var(--navy-900) calc(l + 0.08) c h);
+  --ice-200-hover: oklch(from var(--ice-200) calc(l - 0.05) c h);
+  --lime-500-hover: oklch(from var(--lime-500) calc(l - 0.08) c h);
+
+  /* semantic aliases */
+  --surface-page:var(--paper-100);
+  --surface-card:var(--white);
+  --surface-sunken:var(--ice-200);
+  --surface-inverse:var(--navy-900);
+
+  --text-primary:var(--navy-900);
+  --text-secondary: oklch(from var(--navy-900) calc(l + 0.22) c h);
+  --text-muted: oklch(from var(--navy-900) calc(l + 0.38) calc(c*0.6) h);
+  --text-on-inverse:var(--paper-100);
+  --text-on-brand:var(--white);
+
+  --brand-primary:var(--blue-700);
+  --brand-primary-hover:var(--blue-700-hover);
+  --brand-primary-press:var(--blue-700-press);
+  --brand-secondary:var(--blue-400);
+  --brand-secondary-hover:var(--blue-400-hover);
+
+  --accent:var(--lime-500);
+  --accent-hover:var(--lime-500-hover);
+  --accent-ink:var(--navy-900);
+
+  --border-subtle: oklch(from var(--navy-900) l c h / 0.12);
+  --border-default: oklch(from var(--navy-900) l c h / 0.22);
+  --focus-ring:var(--blue-400);
+
+  --shadow-color: 210 45% 12%;
+}

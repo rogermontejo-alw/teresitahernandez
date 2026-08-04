@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..700;1,300..700&family=Sora:wght@500;600;700;800&display=swap");
+:root{
+  --font-display:"Sora",-apple-system,sans-serif;
+  --font-display-alt:"Cinzel",Georgia,serif;
+  --font-body:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --font-accent:"Source Sans 3","Segoe UI",sans-serif;
+}

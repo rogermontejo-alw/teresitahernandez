@@ -1,0 +1,25 @@
+:root{
+  --text-display-xl:clamp(2.75rem,5vw,4.5rem);
+  --text-display-lg:clamp(2.25rem,4vw,3.25rem);
+  --text-display-md:2rem;
+  --text-display-sm:1.5rem;
+  --text-eyebrow:0.8125rem;
+  --text-body-lg:1.1875rem;
+  --text-body:1.0625rem;
+  --text-body-sm:0.9375rem;
+  --text-caption:0.8125rem;
+
+  --leading-tight:1.08;
+  --leading-snug:1.25;
+  --leading-normal:1.55;
+
+  --tracking-display:0.01em;
+  --tracking-eyebrow:0.16em;
+  --tracking-wide:0.06em;
+
+  --weight-regular:400;
+  --weight-medium:500;
+  --weight-semibold:600;
+  --weight-bold:700;
+  --weight-black:800;
+}

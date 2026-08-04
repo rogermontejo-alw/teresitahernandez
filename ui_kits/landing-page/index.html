@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diplomado en Odontología Estética — Teresita Hernández</title>
+<link rel="stylesheet" href="../../styles.css?v=3">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0}</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" src="./Hero.jsx"></script>
+<script type="text/babel" src="./Docente.jsx"></script>
+<script type="text/babel" src="./ValueSection.jsx"></script>
+<script type="text/babel" src="./Temario.jsx"></script>
+<script type="text/babel" src="./Logistics.jsx"></script>
+<script type="text/babel" src="./Inversion.jsx"></script>
+<script type="text/babel" src="./Testimonios.jsx"></script>
+<script type="text/babel" src="./Faq.jsx"></script>
+<script type="text/babel" src="./SignupForm.jsx"></script>
+<script type="text/babel" src="./Footer.jsx"></script>
+<script type="text/babel">
+function App() {
+  return (
+    <React.Fragment>
+      <Hero />
+      <Docente />
+      <ValueSection />
+      <Temario />
+      <Logistics />
+      <Inversion />
+      <Testimonios />
+      <Faq />
+      <SignupForm />
+      <Footer />
+    </React.Fragment>);
+}
+setTimeout(() => ReactDOM.createRoot(document.getElementById("root")).render(<App />), 0);
+</script>
+</body>
+</html>
