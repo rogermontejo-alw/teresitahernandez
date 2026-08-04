@@ -5,7 +5,7 @@ function Hero() {
     <section className="hero-section" data-screen-label="01 · Hero" style={{position:"relative",background:"var(--navy-900)",color:"var(--text-on-inverse)",padding:"56px 32px 0",overflow:"hidden"}}>
       <div className="hero-grid" style={{maxWidth:"var(--container-max)",margin:"0 auto",display:"grid",gridTemplateColumns:"1fr 1fr",alignItems:"end",gap:16}}>
         <div className="hero-text" style={{display:"flex",flexDirection:"column",alignItems:"flex-start",gap:20,paddingBottom:56,maxWidth:520}}>
-        <img src="../../assets/logo/isotipo-neg-trimmed.png" style={{height:44,width:"auto",alignSelf:"flex-start"}} alt="Teresita Hernández" />
+        <img src="../../assets/logo/isotipo-neg.svg" style={{height:44,width:"auto",alignSelf:"flex-start"}} alt="Teresita Hernández" />
         <Eyebrow tone="inverse">Diplomado en Odontología Estética</Eyebrow>
         <h1 style={{fontFamily:"var(--font-display)",fontSize:"var(--text-display-md)",fontWeight:600,textWrap:"balance",margin:0}}>
           Domina la Odontología Estética de Alta Especialidad
