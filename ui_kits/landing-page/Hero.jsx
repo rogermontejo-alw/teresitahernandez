@@ -14,8 +14,8 @@ function Hero() {
           Diplomado teórico-práctico-demostrativo. 12 módulos, cupo limitado a 12 alumnos, en Mérida, Yucatán.
         </p>
         <div style={{display:"flex",gap:14,marginTop:4,flexWrap:"wrap"}}>
-          <Button variant="primary" size="lg">Quiero Inscribirme</Button>
-          <Button variant="outline" size="lg" style={{color:"var(--text-on-inverse)",border:"1px solid oklch(from var(--text-on-inverse) l c h / 0.4)"}}>Resolver mis dudas</Button>
+          <Button href="#signup-form" variant="primary" size="lg">Quiero Inscribirme</Button>
+          <Button href="#signup-form" variant="outline" size="lg" style={{color:"var(--text-on-inverse)",border:"1px solid oklch(from var(--text-on-inverse) l c h / 0.4)"}}>Resolver mis dudas</Button>
         </div>
         </div>
         <img className="hero-photo" src="../../assets/photos/teresita-frontal-2-cutout.png?v=2" alt="Dra. Teresita Hernández Tello" style={{width:"100%",maxWidth:520,maxHeight:640,objectFit:"contain",objectPosition:"bottom",justifySelf:"end"}} />

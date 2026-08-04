@@ -3,7 +3,7 @@ const { Input, Button } = window.TeresitaHernNdezEstheticDentistryDesignSystem_0
 function SignupForm() {
   const [sent, setSent] = React.useState(false);
   return (
-    <section data-screen-label="09 · Formulario" style={{background:"var(--navy-900)",padding:"96px 32px"}}>
+    <section id="signup-form" data-screen-label="09 · Formulario" style={{background:"var(--navy-900)",padding:"96px 32px"}}>
       <div className="signup-card" style={{maxWidth:640,margin:"0 auto",background:"var(--white)",borderRadius:"var(--radius-lg)",padding:40,boxShadow:"var(--shadow-lg)"}}>
         <h2 style={{fontSize:"var(--text-display-sm)",marginBottom:8}}>Aparta tu lugar o resuelve tus dudas</h2>
         <p style={{fontFamily:"var(--font-body)",color:"var(--text-secondary)",marginTop:0,marginBottom:28}}>Cupo limitado a 12 alumnos por generación.</p>
