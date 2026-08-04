@@ -225,9 +225,15 @@ function Input({
   type = "text",
   placeholder,
   required,
-  options
+  options,
+  name,
+  onValueChange
 }) {
   const [value, setValue] = useState("");
+  const handleChange = e => {
+    setValue(e.target.value);
+    if (onValueChange) onValueChange(e.target.value);
+  };
   const fieldStyle = {
     width: "100%",
     padding: "13px 16px",
@@ -251,8 +257,9 @@ function Input({
   }, label, options ? React.createElement("select", {
     style: fieldStyle,
     required,
+    name,
     value,
-    onChange: e => setValue(e.target.value)
+    onChange: handleChange
   }, React.createElement("option", {
     value: ""
   }, placeholder || "Selecciona"), options.map(o => React.createElement("option", {
@@ -262,9 +269,10 @@ function Input({
     type,
     placeholder,
     required,
+    name,
     style: fieldStyle,
     value,
-    onChange: e => setValue(e.target.value)
+    onChange: handleChange
   }));
 }
 Object.assign(__ds_scope, { Input });

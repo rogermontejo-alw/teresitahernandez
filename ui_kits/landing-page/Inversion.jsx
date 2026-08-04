@@ -30,7 +30,7 @@ function Inversion() {
         </p>
         <Button variant="dark" size="lg" style={{marginTop:24}}>Apartar mi lugar</Button>
         </div>
-        <img className="inversion-photo" src="../../assets/photos/teresita-lateral-derecha-cutout.png?v=2" alt="Dra. Teresita Hernández Tello" style={{width:600,height:740,maxHeight:800,objectFit:"contain",objectPosition:"bottom"}} />
+        <img className="inversion-photo" src="/assets/photos/teresita-lateral-derecha-cutout.png?v=2" alt="Dra. Teresita Hernández Tello" style={{width:600,height:740,maxHeight:800,objectFit:"contain",objectPosition:"bottom"}} />
       </div>
     </section>
   );

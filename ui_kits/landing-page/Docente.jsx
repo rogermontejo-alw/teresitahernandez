@@ -12,7 +12,7 @@ function Docente() {
     <section data-screen-label="02 · Docente" style={{background:"var(--surface-page)",padding:"96px 32px"}}>
       <div className="docente-grid" style={{maxWidth:"var(--container-max)",margin:"0 auto",display:"grid",gridTemplateColumns:"420px 1fr",gap:56,alignItems:"start"}}>
         <div className="docente-photo" style={{aspectRatio:"4/5",background:"var(--surface-sunken)",borderRadius:"var(--radius-lg)",overflow:"hidden",display:"flex",alignItems:"flex-end",justifyContent:"center"}}>
-          <img src="../../assets/photos/teresita-lateral-izquierda-cutout.png?v=2" alt="Dra. Teresita Hernández Tello" style={{width:"120%",height:"auto",objectFit:"contain"}} />
+          <img src="/assets/photos/teresita-lateral-izquierda-cutout.png?v=2" alt="Dra. Teresita Hernández Tello" style={{width:"120%",height:"auto",objectFit:"contain"}} />
         </div>
         <div>
           <Eyebrow>Tu Docente</Eyebrow>

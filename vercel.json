@@ -1,5 +1,7 @@
 {
-  "redirects": [
-    { "source": "/", "destination": "/ui_kits/landing-page/index.html", "permanent": false }
+  "rewrites": [
+    { "source": "/", "destination": "/ui_kits/landing-page/index.html" },
+    { "source": "/formulario", "destination": "/ui_kits/landing-page/formulario.html" },
+    { "source": "/gracias", "destination": "/ui_kits/landing-page/gracias.html" }
   ]
 }

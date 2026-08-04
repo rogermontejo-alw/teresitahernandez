@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regístrate — Diplomado en Odontología Estética | Teresita Hernández</title>
+<meta name="description" content="Aparta tu lugar en el Diplomado en Odontología Estética con la Dra. Teresita Hernández Tello. Cupo limitado a 12 alumnos.">
+<link rel="icon" href="/assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="/assets/logo/favicon-32.png" type="image/png">
+<link rel="icon" href="/assets/logo/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/logo/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css?v=13">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+<script src="/_ds_bundle.js?v=13"></script>
+<style>
+  body{margin:0}
+  .form-page-header{background:var(--navy-900);color:var(--text-on-inverse);padding:48px 32px 64px;text-align:center}
+  .form-page-header img{height:40px;margin-bottom:24px}
+  .form-page-header h1{font-family:var(--font-display);font-size:var(--text-display-sm);max-width:640px;margin:0 auto 12px}
+  .form-page-header p{font-family:var(--font-body);color:oklch(from var(--text-on-inverse) l c h / 0.75);max-width:520px;margin:0 auto}
+  #signup-form{padding-top:0;margin-top:-40px}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" src="./SignupForm.jsx?v=13"></script>
+<script type="text/babel">
+function FormPage() {
+  return (
+    <React.Fragment>
+      <header className="form-page-header">
+        <img src="/assets/logo/isotipo-neg.svg" alt="Teresita Hernández" />
+        <h1>Aparta tu lugar en el Diplomado en Odontología Estética</h1>
+        <p>Formación teórico-práctico-demostrativa, 12 módulos, cupo limitado a 12 alumnos en Mérida, Yucatán.</p>
+      </header>
+      <SignupForm />
+    </React.Fragment>
+  );
+}
+setTimeout(() => ReactDOM.createRoot(document.getElementById("root")).render(<FormPage />), 0);
+</script>
+</body>
+</html>
