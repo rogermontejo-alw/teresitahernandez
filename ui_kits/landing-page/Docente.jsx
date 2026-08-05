@@ -21,7 +21,7 @@ function Docente() {
             Cirujano Dentista graduada con honores por la Universidad Autónoma de Yucatán. Especialista en Prostodoncia por la University of Rochester (Nueva York) — primera mujer mexicana admitida en ese posgrado. Formación personalizada con referentes mundiales de la odontología estética: Christian Coachman, Pascal Magne, Gerard Chiche, Sidney Kina, Florin Cofar, Hirata, Clavijo, Calamita, Bezerra, Higashi, Pineyro, Carvalho y Da Silva, en Estados Unidos, Perú y Brasil.
           </p>
           <p style={{fontFamily:"var(--font-body)",fontSize:"var(--text-body)",color:"var(--text-secondary)",lineHeight:"var(--leading-normal)",maxWidth:640}}>
-            Más de 15 años de práctica clínica y más de 10 años como docente, incluyendo la Universidad Autónoma de Yucatán y la Benemérita Universidad Autónoma de Puebla.
+            Más de 15 años de práctica clínica y más de 10 años como docente, incluyendo la Universidad Autónoma de Yucatán y la Benemérita Universidad Autónoma de Puebla. Actualmente es Coordinadora de la Especialidad en Odontología Restauradora en la Universidad del Valle de Guerrero.
           </p>
           <div style={{display:"flex",gap:10,flexWrap:"wrap",marginTop:20}}>
             {credentials.map((c) => <Badge key={c} tone="ice">{c}</Badge>)}
