@@ -2,18 +2,18 @@ const { Eyebrow, Accordion } = window.TeresitaHernNdezEstheticDentistryDesignSys
 
 function Temario() {
   const modulos = [
-    "Diagnóstico integral y diseño digital de sonrisa — parámetros estéticos, análisis facial, mock-up 3D",
-    "Blanqueamiento y aislamiento avanzado — macro y microabrasión",
-    "Operatoria integrada a la salud pulpar — biobase, biomimética, postes y fibras",
-    "Preparaciones mínimamente invasivas — anteriores y posteriores",
-    "Tejidos blandos y provisionales",
-    "Impresiones análogas y digitales",
-    "Composites posteriores de alta complejidad — clase II, anatomía compleja",
-    "Estampa oclusal e incremento seriado — resinas bulk",
-    "Estratificación anterior avanzada y teoría del color",
-    "Carillas de resina directa",
-    "Carillas cerámicas de mínima invasión (módulo insignia)",
-    "Cementación integral",
+    "Diagnóstico integral y diseño digital de sonrisa, análisis facial y mock-up. Procedimientos estéticos de invasión mínima: aclaramiento dental, macro y microabrasión",
+    "Operatoria dental integrada a la salud pulpar, biobase, biomimética, postes y fibras",
+    "Conceptos y teoría de preparaciones mínimamente invasivas. Preparaciones horizontales y verticales",
+    "Técnicas de provisionalización, pónticos ovoides. Impresiones análogas y digitales",
+    "Morfología de dientes posteriores en composites de alta complejidad, técnicas de estratificación, elevación de margen y cajas proximales",
+    "Estampas oclusales, uso de resinas bulk y registros interoclusales. Técnicas para aumento seriado posterior e incremento de dimensión vertical",
+    "Teoría del color y técnica de resinas inyectadas",
+    "Estratificación anterior compleja con técnicas palatovestibulares y uso de tintes y efectos",
+    "Técnicas avanzadas de resinas anteriores: enmascaramiento de diente obscuro y transformación de diente conoide",
+    "Carillas de resina, uso de técnicas mixtas, palatovestibulares y estampas",
+    "Carillas cerámicas, preparaciones de mínima invasión. Revisión de materiales cerámicos disponibles en el mercado: disilicato de litio y zirconia. Materiales impresos",
+    "Cementación, tipos de cementos disponibles en el mercado, usos y características específicas. Preparación del sustrato dental y preparación de la restauración",
   ];
   return (
     <section data-screen-label="04 · Temario" style={{background:"var(--surface-page)",padding:"96px 32px"}}>
