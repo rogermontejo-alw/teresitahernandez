@@ -25,7 +25,7 @@ function Logistics() {
     {icon:icons.box, label:"Incluye", value:"Material para prácticas en tipodonto, material bibliográfico y refrigerios"},
   ];
   return (
-    <section data-screen-label="05 · Logística" style={{background:"var(--navy-900)",color:"var(--text-on-inverse)",padding:"96px 32px"}}>
+    <section data-screen-label="06 · Logística" style={{background:"var(--navy-900)",color:"var(--text-on-inverse)",padding:"96px 32px"}}>
       <div style={{maxWidth:"var(--container-max)",margin:"0 auto"}}>
         <Eyebrow tone="inverse">Detalles del Diplomado</Eyebrow>
         <div className="logistics-grid" style={{display:"grid",gridTemplateColumns:"repeat(5,1fr)",gap:0,marginTop:24}}>

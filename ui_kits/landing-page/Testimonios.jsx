@@ -19,7 +19,7 @@ function Testimonios() {
     },
   ];
   return (
-    <section data-screen-label="07 · Testimonios" style={{background:"var(--surface-page)",padding:"96px 32px"}}>
+    <section data-screen-label="08 · Testimonios" style={{background:"var(--surface-page)",padding:"96px 32px"}}>
       <div style={{maxWidth:"var(--container-max)",margin:"0 auto",textAlign:"center"}}>
         <Eyebrow>Lo que Dicen Nuestros Alumnos</Eyebrow>
         <h2 style={{fontSize:"var(--text-display-md)",marginBottom:32}}>Generaciones anteriores ya lo comprobaron</h2>

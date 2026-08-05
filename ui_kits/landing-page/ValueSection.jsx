@@ -14,7 +14,7 @@ function ValueSection() {
     {label:"Blanqueamientos, macro/microabrasión, impresiones, provisorios", value:"$12,000"},
   ];
   return (
-    <section data-screen-label="03 · Valor" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
+    <section data-screen-label="04 · Valor" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
       <div style={{maxWidth:900,margin:"0 auto"}}>
         <Eyebrow>Tu Inversión, en Perspectiva</Eyebrow>
         <h2 style={{fontSize:"var(--text-display-md)",marginBottom:16}}>Esto es lo que te costaría aprender cada técnica por separado</h2>

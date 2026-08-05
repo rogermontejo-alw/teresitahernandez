@@ -9,7 +9,7 @@ function Inversion() {
     {label:"Kit de espátulas para resina (obligatorio, mes 6)", value:"$5,500 MXN"},
   ];
   return (
-    <section data-screen-label="06 · Inversión" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
+    <section data-screen-label="07 · Inversión" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
       <div className="inversion-grid" style={{maxWidth:"var(--container-max)",margin:"0 auto",display:"grid",gridTemplateColumns:"1fr 600px",gap:48,alignItems:"end"}}>
         <div className="inversion-price-col" style={{maxWidth:760}}>
         <Eyebrow>Inversión</Eyebrow>
