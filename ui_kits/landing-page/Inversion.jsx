@@ -28,7 +28,7 @@ function Inversion() {
         <p style={{fontSize:12,color:"var(--text-muted)",marginTop:12}}>
           Precio sujeto a cambio sin previo aviso. Cupo limitado — tu lugar se aparta con el pago de inscripción.
         </p>
-        <Button variant="dark" size="lg" style={{marginTop:24}}>Apartar mi lugar</Button>
+        <Button href="#signup-form" variant="dark" size="lg" style={{marginTop:24}}>Apartar mi lugar</Button>
         </div>
         <img className="inversion-photo" src="/assets/photos/teresita-lateral-derecha-cutout.png?v=2" alt="Dra. Teresita Hernández Tello" style={{width:600,height:740,maxHeight:800,objectFit:"contain",objectPosition:"bottom"}} />
       </div>

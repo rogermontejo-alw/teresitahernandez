@@ -48,7 +48,7 @@ function SignupForm() {
           <Input name="interes" label="¿Qué te interesa más del diplomado?" options={["Fundamentos","Mínima invasión y carillas","Perfeccionar técnica avanzada"]} />
           <Input name="comentarios" label="Comentarios o dudas" />
           <Button type="submit" variant="primary" size="lg" disabled={sending}>
-            {sending ? "Enviando…" : "Enviar y reservar mi lugar"}
+            {sending ? "Enviando…" : "Quiero más información"}
           </Button>
         </form>
       </div>
