@@ -2,7 +2,7 @@ const { Eyebrow, Button } = window.TeresitaHernNdezEstheticDentistryDesignSystem
 
 function Diferenciador() {
   return (
-    <section data-screen-label="03 · Diferenciador" style={{background:"var(--navy-900)",color:"var(--text-on-inverse)",padding:"96px 32px"}}>
+    <section data-screen-label="04 · Diferenciador" style={{background:"var(--navy-900)",color:"var(--text-on-inverse)",padding:"96px 32px"}}>
       <div style={{maxWidth:820,margin:"0 auto",textAlign:"center"}}>
         <Eyebrow tone="inverse">Por Qué Este Diplomado Es Diferente</Eyebrow>
         <h2 style={{fontSize:"var(--text-display-md)",marginBottom:24}}>

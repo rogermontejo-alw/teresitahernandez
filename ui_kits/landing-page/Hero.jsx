@@ -8,13 +8,13 @@ function Hero() {
         <img className="hero-logo" src="/assets/logo/isotipo-neg.svg" style={{height:44,width:"auto"}} alt="Teresita Hernández" />
         <Eyebrow tone="inverse">Diplomado en Odontología Estética</Eyebrow>
         <h1 style={{fontFamily:"var(--font-display)",fontSize:"var(--text-display-md)",fontWeight:600,textWrap:"balance",margin:0}}>
-          Domina la Odontología Estética de Alta Especialidad
+          Conviértete en el odontólogo que tus pacientes recomiendan
         </h1>
         <p style={{fontFamily:"var(--font-body)",fontSize:"var(--text-body-lg)",color:"oklch(from var(--text-on-inverse) l c h / 0.75)",maxWidth:460,margin:0}}>
           Diplomado teórico-práctico-demostrativo. 12 módulos, cupo limitado a 12 alumnos, en Mérida, Yucatán.
         </p>
         <div style={{display:"flex",gap:14,marginTop:4,flexWrap:"wrap"}}>
-          <Button href="#signup-form" variant="primary" size="lg">Quiero Inscribirme</Button>
+          <Button href="#signup-form" variant="primary" size="lg">Quiero Apartar Mi Lugar</Button>
         </div>
         </div>
         <img className="hero-photo" src="/assets/photos/teresita-frontal-2-cutout.png?v=2" alt="Dra. Teresita Hernández Tello" style={{width:"100%",maxWidth:520,maxHeight:640,objectFit:"contain",objectPosition:"bottom",justifySelf:"end"}} />

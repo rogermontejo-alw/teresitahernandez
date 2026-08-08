@@ -14,7 +14,7 @@ function ValueSection() {
     {label:"Blanqueamientos, macro/microabrasión, impresiones, provisorios", value:"$12,000"},
   ];
   return (
-    <section data-screen-label="04 · Valor" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
+    <section data-screen-label="05 · Valor" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
       <div style={{maxWidth:900,margin:"0 auto"}}>
         <Eyebrow>Tu Inversión, en Perspectiva</Eyebrow>
         <h2 style={{fontSize:"var(--text-display-md)",marginBottom:16}}>Esto es lo que te costaría aprender cada técnica por separado</h2>
@@ -25,7 +25,7 @@ function ValueSection() {
         <div style={{marginTop:32,background:"var(--navy-900)",borderRadius:"var(--radius-lg)",padding:"32px 36px",boxShadow:"var(--shadow-md)",borderLeft:"6px solid var(--accent)"}}>
           <p style={{margin:"0 0 10px",fontFamily:"var(--font-body)",fontSize:15,color:"oklch(from var(--text-on-inverse) l c h / 0.75)"}}>Valor estimado en cursos individuales: <strong style={{color:"var(--text-on-inverse)"}}>$109,000 MXN</strong></p>
           <p style={{margin:"0 0 8px",fontFamily:"var(--font-body)",fontSize:15,color:"oklch(from var(--text-on-inverse) l c h / 0.75)"}}>Costo total real de tu diplomado (inscripción promocional + kit):</p>
-          <p style={{margin:"0 0 16px"}}><strong style={{display:"inline-block",whiteSpace:"nowrap",fontSize:15,color:"var(--accent-ink)",background:"var(--accent)",padding:"2px 8px",borderRadius:"var(--radius-sm)"}}>$4,000 MXN al mes, por 12 meses</strong></p>
+          <p style={{margin:"0 0 16px"}}><strong style={{display:"inline-block",whiteSpace:"nowrap",fontSize:15,color:"var(--navy-900)",background:"var(--brand-secondary)",padding:"2px 8px",borderRadius:"var(--radius-sm)"}}>$4,000 MXN al mes, por 12 meses</strong></p>
           <p style={{margin:0,fontFamily:"var(--font-display)",fontSize:28,fontWeight:600,color:"var(--accent)"}}>Tu ahorro: más de $53,000 MXN</p>
         </div>
         <p style={{fontSize:12,color:"var(--text-muted)",marginTop:16,lineHeight:1.5}}>

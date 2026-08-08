@@ -16,7 +16,7 @@ function Temario() {
     "Cementación, tipos de cementos disponibles en el mercado, usos y características específicas. Preparación del sustrato dental y preparación de la restauración",
   ];
   return (
-    <section data-screen-label="05 · Temario" style={{background:"var(--surface-page)",padding:"96px 32px"}}>
+    <section data-screen-label="06 · Temario" style={{background:"var(--surface-page)",padding:"96px 32px"}}>
       <div style={{maxWidth:820,margin:"0 auto"}}>
         <Eyebrow>Contenido</Eyebrow>
         <h2 style={{fontSize:"var(--text-display-md)",marginBottom:32}}>12 módulos. 100% práctico. Aplicable desde el lunes siguiente.</h2>

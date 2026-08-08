@@ -21,6 +21,21 @@
 
 img { max-width: 100%; }
 
+/* ----- Value table (Valor section) ----- */
+@media (max-width: 640px) {
+  .value-table-row { padding-left: 16px !important; padding-right: 16px !important; gap: 8px !important; }
+  .value-table-row span:nth-child(2) { width: 64px !important; font-size: 12px !important; }
+  .value-table-included { width: 58px !important; font-size: 11px !important; }
+  .value-table-header span:nth-child(2), .value-table-header span:nth-child(3) { font-size: 9px !important; }
+}
+@media (max-width: 420px) {
+  .value-table-row { font-size: 12px !important; }
+  .value-table-row span:nth-child(2) { width: 54px !important; font-size: 11px !important; }
+  .value-table-included { width: 46px !important; }
+  .value-table-check { font-size: 0 !important; }
+  .value-table-check::before { content: "✓"; font-size: 16px; }
+}
+
 /* ----- Hero (01) ----- */
 @media (max-width: 900px) {
   .hero-grid {
@@ -51,7 +66,12 @@ img { max-width: 100%; }
   .hero-photo { max-width: 260px !important; max-height: 300px !important; }
 }
 
-/* ----- Docente (02) ----- */
+/* ----- Es Para Ti (02) ----- */
+@media (max-width: 700px) {
+  .esparati-grid { grid-template-columns: 1fr !important; }
+}
+
+/* ----- Docente (03) ----- */
 @media (max-width: 900px) {
   .docente-grid {
     grid-template-columns: 1fr !important;

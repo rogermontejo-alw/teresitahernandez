@@ -35,18 +35,14 @@ function SignupForm() {
   }
 
   return (
-    <section id="signup-form" data-screen-label="10 · Formulario" style={{background:"var(--navy-900)",padding:"96px 32px"}}>
+    <section id="signup-form" data-screen-label="11 · Formulario" style={{background:"var(--navy-900)",padding:"96px 32px"}}>
       <div className="signup-card" style={{maxWidth:640,margin:"0 auto",background:"var(--white)",borderRadius:"var(--radius-lg)",padding:40,boxShadow:"var(--shadow-lg)"}}>
         <h2 style={{fontSize:"var(--text-display-sm)",marginBottom:8}}>Aparta tu lugar o resuelve tus dudas</h2>
         <p style={{fontFamily:"var(--font-body)",color:"var(--text-secondary)",marginTop:0,marginBottom:28}}>Cupo limitado a 12 alumnos por generación.</p>
         <form onSubmit={handleSubmit} style={{display:"flex",flexDirection:"column",gap:18}}>
           <Input name="nombre" label="Nombre completo" required />
-          <Input name="telefono" label="Teléfono / WhatsApp" type="tel" required />
-          <Input name="email" label="Correo electrónico" type="email" required />
           <Input name="ciudad" label="Ciudad" options={["Mérida","Campeche","Cd. del Carmen","Cancún","Playa del Carmen","Chetumal","Otra"]} />
-          <Input name="ejerce" label="¿Ya ejerces odontología?" options={["Sí, ya ejerzo","Soy pasante o estudiante"]} />
-          <Input name="interes" label="¿Qué te interesa más del diplomado?" options={["Fundamentos","Mínima invasión y carillas","Perfeccionar técnica avanzada"]} />
-          <Input name="comentarios" label="Comentarios o dudas" />
+          <Input name="telefono" label="Teléfono / WhatsApp" type="tel" required />
           <Button type="submit" variant="primary" size="lg" disabled={sending}>
             {sending ? "Enviando…" : "Quiero más información"}
           </Button>

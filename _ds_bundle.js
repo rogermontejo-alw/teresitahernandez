@@ -176,33 +176,64 @@ function ValueTable({
   rows,
   total
 }) {
+  const priceColStyle = { width: "84px", flex: "0 0 auto", textAlign: "right" };
+  const includedColStyle = { width: "76px", flex: "0 0 auto", textAlign: "right" };
   return React.createElement("div", {
+    className: "value-table",
     style: {
       background: "var(--white)",
       borderRadius: "var(--radius-lg)",
       boxShadow: "var(--shadow-md)",
       overflow: "hidden"
     }
-  }, rows.map((r, i) => React.createElement("div", {
-    key: i,
+  },
+  React.createElement("div", {
+    className: "value-table-row value-table-header",
     style: {
       display: "flex",
-      justifyContent: "space-between",
+      alignItems: "center",
+      gap: "16px",
+      padding: "10px 24px",
+      background: "var(--surface-sunken)",
+      fontSize: "11px",
+      fontWeight: 700,
+      letterSpacing: "0.06em",
+      textTransform: "uppercase",
+      color: "var(--text-muted)"
+    }
+  },
+    React.createElement("span", { style: { flex: 1 } }, ""),
+    React.createElement("span", { style: priceColStyle }, "Por separado"),
+    React.createElement("span", { style: includedColStyle }, "Diplomado")
+  ),
+  rows.map((r, i) => React.createElement("div", {
+    key: i,
+    className: "value-table-row",
+    style: {
+      display: "flex",
+      alignItems: "center",
       gap: "16px",
       padding: "14px 24px",
       borderBottom: "1px solid var(--border-subtle)",
       fontSize: "14px",
       color: "var(--text-secondary)"
     }
-  }, React.createElement("span", null, r.label), React.createElement("span", {
-    style: {
-      fontWeight: 600,
-      color: "var(--text-primary)"
-    }
-  }, r.value))), React.createElement("div", {
+  },
+    React.createElement("span", { style: { flex: 1 } }, r.label),
+    React.createElement("span", {
+      style: { ...priceColStyle, fontWeight: 600, color: "var(--text-primary)" }
+    }, r.value),
+    React.createElement("span", {
+      className: "value-table-included value-table-check",
+      style: { ...includedColStyle, fontWeight: 700, fontSize: "13px", color: "var(--brand-primary)" }
+    }, "✓ Incluido")
+  )),
+  React.createElement("div", {
+    className: "value-table-row",
     style: {
       display: "flex",
-      justifyContent: "space-between",
+      alignItems: "center",
+      gap: "16px",
       padding: "18px 24px",
       background: "var(--navy-900)",
       color: "var(--text-on-inverse)",
@@ -210,7 +241,14 @@ function ValueTable({
       fontSize: "16px",
       letterSpacing: "0.02em"
     }
-  }, "Valor total estimado", React.createElement("span", null, total)));
+  },
+    React.createElement("span", { style: { flex: 1 } }, "Valor total estimado"),
+    React.createElement("span", { style: priceColStyle }, total),
+    React.createElement("span", {
+      className: "value-table-included",
+      style: { ...includedColStyle, fontSize: "13px", color: "var(--accent)" }
+    }, "Nuestro precio")
+  ));
 }
 Object.assign(__ds_scope, { ValueTable });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/ValueTable.jsx", error: String((e && e.message) || e) }); }

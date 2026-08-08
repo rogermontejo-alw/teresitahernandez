@@ -8,7 +8,7 @@ function Faq() {
     {title:"¿Qué pasa después de inscribirme?", body:"Formas parte de un grupo con acceso directo a la Dra. Teresita durante los 12 meses, además de promociones y descuentos exclusivos de casas comerciales."},
   ];
   return (
-    <section data-screen-label="09 · FAQ" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
+    <section data-screen-label="10 · FAQ" style={{background:"var(--surface-sunken)",padding:"96px 32px"}}>
       <div style={{maxWidth:760,margin:"0 auto"}}>
         <Eyebrow>Dudas Frecuentes</Eyebrow>
         <Accordion items={items} />
