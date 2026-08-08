@@ -191,7 +191,13 @@ function ValueTable({
     React.createElement("div", { style: contents },
       React.createElement("span", { className: "vt-cell vt-label vt-total" }, "Valor total estimado"),
       React.createElement("span", { className: "vt-cell vt-price vt-total" }, total),
-      React.createElement("span", { className: "vt-cell vt-highlight vt-total vt-total-note" }, "$4,000 al mes x 12 meses")
+      React.createElement("span", {
+        className: "vt-cell vt-highlight vt-total vt-total-note",
+        style: { flexDirection: "column", alignItems: "flex-end", justifyContent: "center", lineHeight: 1.35 }
+      },
+        React.createElement("span", null, "$4,000 al mes"),
+        React.createElement("span", null, "por 12 meses")
+      )
     )
   );
 }
