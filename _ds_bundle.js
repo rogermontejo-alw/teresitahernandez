@@ -204,7 +204,10 @@ function ValueTable({
   },
     React.createElement("span", { style: { flex: 1 } }, ""),
     React.createElement("span", { style: priceColStyle }, "Por separado"),
-    React.createElement("span", { style: includedColStyle }, "Nuestro Diplomado")
+    React.createElement("span", {
+      className: "value-table-col-highlight",
+      style: { ...includedColStyle, alignSelf: "stretch", display: "flex", alignItems: "center", justifyContent: "flex-end", background: "oklch(from var(--navy-900) l c h / 0.07)", margin: "-10px -24px -10px 0", padding: "10px 24px 10px 0" }
+    }, "Nuestro Diplomado")
   ),
   rows.map((r, i) => React.createElement("div", {
     key: i,
@@ -224,8 +227,8 @@ function ValueTable({
       style: { ...priceColStyle, fontWeight: 600, color: "var(--text-primary)" }
     }, r.value),
     React.createElement("span", {
-      className: "value-table-included value-table-check",
-      style: { ...includedColStyle, fontWeight: 700, fontSize: "13px", color: "var(--brand-primary)" }
+      className: "value-table-included value-table-check value-table-col-highlight",
+      style: { ...includedColStyle, alignSelf: "stretch", display: "flex", alignItems: "center", justifyContent: "flex-end", fontWeight: 700, fontSize: "13px", color: "var(--brand-primary)", background: "var(--surface-sunken)", margin: "-14px -24px -14px 0", padding: "14px 24px 14px 0" }
     }, "✓ Incluido")
   )),
   React.createElement("div", {
@@ -245,8 +248,8 @@ function ValueTable({
     React.createElement("span", { style: { flex: 1 } }, "Valor total estimado"),
     React.createElement("span", { style: priceColStyle }, total),
     React.createElement("span", {
-      className: "value-table-total-note",
-      style: { ...includedColStyle, fontSize: "13px", lineHeight: 1.3, color: "var(--accent)" }
+      className: "value-table-total-note value-table-col-highlight",
+      style: { ...includedColStyle, alignSelf: "stretch", display: "flex", alignItems: "center", justifyContent: "flex-end", fontSize: "13px", lineHeight: 1.3, color: "var(--accent)", background: "oklch(from var(--navy-900) calc(l - 0.04) c h)", margin: "-18px -24px -18px 0", padding: "18px 24px 18px 0" }
     }, "$4,000 al mes x 12 meses")
   ));
 }

@@ -11,11 +11,11 @@ function Stars() {
 function Testimonios() {
   const videos = [
     {
-      name: "William Rafael Talavera",
-      role: "Dentista · Campeche",
-      quote: "El aprender de manera práctica nos permite aplicarlo al día siguiente en nuestro consultorio.",
-      src: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto/v1785874552/TESTIMONIO_DR_WILLIAM.mp4",
-      poster: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto,w_500/v1785874552/TESTIMONIO_DR_WILLIAM.jpg",
+      name: "Dr. Juan Fernando Casanova",
+      role: "Ex rector de la UAC",
+      quote: "Tomé el diplomado 2 veces ya que las técnicas se van perfeccionando y actualizando.",
+      src: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto/v1785874541/TESTIMONIO_DR_JUAN_FERNANDO.mp4",
+      poster: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto,w_500/v1785874541/TESTIMONIO_DR_JUAN_FERNANDO.jpg",
     },
     {
       name: "Dra. Diana",
@@ -25,11 +25,11 @@ function Testimonios() {
       poster: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto,w_500/v1785874550/TESTIMONIO_DRA_DIANA.jpg",
     },
     {
-      name: "Dr. Juan Fernando Casanova",
-      role: "Ex rector de la UAC",
-      quote: "Tomé el diplomado 2 veces ya que las técnicas se van perfeccionando y actualizando.",
-      src: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto/v1785874541/TESTIMONIO_DR_JUAN_FERNANDO.mp4",
-      poster: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto,w_500/v1785874541/TESTIMONIO_DR_JUAN_FERNANDO.jpg",
+      name: "William Rafael Talavera",
+      role: "Dentista · Campeche",
+      quote: "El aprender de manera práctica nos permite aplicarlo al día siguiente en nuestro consultorio.",
+      src: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto/v1785874552/TESTIMONIO_DR_WILLIAM.mp4",
+      poster: "https://res.cloudinary.com/dwtg72zuj/video/upload/f_auto,q_auto,w_500/v1785874552/TESTIMONIO_DR_WILLIAM.jpg",
     },
   ];
   return (

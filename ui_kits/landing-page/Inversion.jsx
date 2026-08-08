@@ -4,7 +4,7 @@ function Inversion() {
   const rows = [
     {label:"Inscripción", value:"$3,500 MXN"},
     {label:"🎉 Promoción — inscripción hasta el 15 de agosto", value:"$2,000 MXN"},
-    {label:"Aparta tu lugar con", value:"$1,000 MXN (liquidas el resto antes del 15 de agosto)"},
+    {label:"Aparta tu lugar con", value:"$1,000 MXN (liquidas el resto antes del 31 de agosto)"},
     {label:"Mensualidad (12 módulos, 1 por mes)", value:"$4,000 MXN"},
     {label:"Kit de espátulas para resina (obligatorio, mes 6)", value:"$5,500 MXN"},
   ];
