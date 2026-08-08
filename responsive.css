@@ -25,15 +25,19 @@ img { max-width: 100%; }
 @media (max-width: 640px) {
   .value-table-row { padding-left: 16px !important; padding-right: 16px !important; gap: 8px !important; }
   .value-table-row span:nth-child(2) { width: 64px !important; font-size: 12px !important; }
-  .value-table-included { width: 58px !important; font-size: 11px !important; }
+  .value-table-row span:nth-child(3) { width: 100px !important; }
+  .value-table-included { font-size: 11px !important; }
+  .value-table-total-note { font-size: 11px !important; line-height: 1.3 !important; }
   .value-table-header span:nth-child(2), .value-table-header span:nth-child(3) { font-size: 9px !important; }
 }
 @media (max-width: 420px) {
   .value-table-row { font-size: 12px !important; }
-  .value-table-row span:nth-child(2) { width: 54px !important; font-size: 11px !important; }
-  .value-table-included { width: 46px !important; }
+  .value-table-row span:nth-child(2) { width: 50px !important; font-size: 11px !important; }
+  .value-table-row span:nth-child(3) { width: 90px !important; }
   .value-table-check { font-size: 0 !important; }
   .value-table-check::before { content: "✓"; font-size: 16px; }
+  .value-table-total-note { font-size: 10px !important; line-height: 1.25 !important; }
+  .value-table-header span:nth-child(3) { font-size: 8px !important; letter-spacing: 0 !important; }
 }
 
 /* ----- Hero (01) ----- */

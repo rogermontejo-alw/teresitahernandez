@@ -2,7 +2,7 @@ const { Eyebrow } = window.TeresitaHernNdezEstheticDentistryDesignSystem_0dd396;
 
 function Stars() {
   return (
-    <div style={{display:"flex",gap:2,color:"var(--accent)",fontSize:16,letterSpacing:2}}>
+    <div style={{display:"flex",gap:2,color:"var(--navy-900)",fontSize:16,letterSpacing:2}}>
       {"★★★★★".split("").map((s, i) => <span key={i}>{s}</span>)}
     </div>
   );

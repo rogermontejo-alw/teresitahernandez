@@ -176,8 +176,8 @@ function ValueTable({
   rows,
   total
 }) {
-  const priceColStyle = { width: "84px", flex: "0 0 auto", textAlign: "right" };
-  const includedColStyle = { width: "76px", flex: "0 0 auto", textAlign: "right" };
+  const priceColStyle = { width: "88px", flex: "0 0 auto", textAlign: "right" };
+  const includedColStyle = { width: "150px", flex: "0 0 auto", textAlign: "right" };
   return React.createElement("div", {
     className: "value-table",
     style: {
@@ -204,7 +204,7 @@ function ValueTable({
   },
     React.createElement("span", { style: { flex: 1 } }, ""),
     React.createElement("span", { style: priceColStyle }, "Por separado"),
-    React.createElement("span", { style: includedColStyle }, "Diplomado")
+    React.createElement("span", { style: includedColStyle }, "Nuestro Diplomado")
   ),
   rows.map((r, i) => React.createElement("div", {
     key: i,
@@ -245,9 +245,9 @@ function ValueTable({
     React.createElement("span", { style: { flex: 1 } }, "Valor total estimado"),
     React.createElement("span", { style: priceColStyle }, total),
     React.createElement("span", {
-      className: "value-table-included",
-      style: { ...includedColStyle, fontSize: "13px", color: "var(--accent)" }
-    }, "Nuestro precio")
+      className: "value-table-total-note",
+      style: { ...includedColStyle, fontSize: "13px", lineHeight: 1.3, color: "var(--accent)" }
+    }, "$4,000 al mes x 12 meses")
   ));
 }
 Object.assign(__ds_scope, { ValueTable });

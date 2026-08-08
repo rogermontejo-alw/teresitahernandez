@@ -25,8 +25,8 @@ function ValueSection() {
         <div style={{marginTop:32,background:"var(--navy-900)",borderRadius:"var(--radius-lg)",padding:"32px 36px",boxShadow:"var(--shadow-md)",borderLeft:"6px solid var(--accent)"}}>
           <p style={{margin:"0 0 10px",fontFamily:"var(--font-body)",fontSize:15,color:"oklch(from var(--text-on-inverse) l c h / 0.75)"}}>Valor estimado en cursos individuales: <strong style={{color:"var(--text-on-inverse)"}}>$109,000 MXN</strong></p>
           <p style={{margin:"0 0 8px",fontFamily:"var(--font-body)",fontSize:15,color:"oklch(from var(--text-on-inverse) l c h / 0.75)"}}>Costo total real de tu diplomado (inscripción promocional + kit):</p>
-          <p style={{margin:"0 0 16px"}}><strong style={{display:"inline-block",whiteSpace:"nowrap",fontSize:15,color:"var(--navy-900)",background:"var(--brand-secondary)",padding:"2px 8px",borderRadius:"var(--radius-sm)"}}>$4,000 MXN al mes, por 12 meses</strong></p>
-          <p style={{margin:0,fontFamily:"var(--font-display)",fontSize:28,fontWeight:600,color:"var(--accent)"}}>Tu ahorro: más de $53,000 MXN</p>
+          <p style={{margin:"0 0 16px"}}><strong style={{display:"inline-block",whiteSpace:"nowrap",fontSize:15,color:"var(--accent-ink)",background:"var(--accent)",padding:"2px 8px",borderRadius:"var(--radius-sm)"}}>$4,000 MXN al mes, por 12 meses</strong></p>
+          <p style={{margin:0,fontFamily:"var(--font-display)",fontSize:28,fontWeight:600,color:"var(--brand-secondary)"}}>Tu ahorro: más de $53,000 MXN</p>
         </div>
         <p style={{fontSize:12,color:"var(--text-muted)",marginTop:16,lineHeight:1.5}}>
           Valor estimado con base en honorarios de referencia de cursos especializados independientes en México; no corresponde a un precio de mercado publicado por un tercero. Costo total real calculado con inscripción promocional ($2,000), 12 mensualidades de $4,000 y kit de espátulas ($5,500); detalle completo en la sección de Inversión.
