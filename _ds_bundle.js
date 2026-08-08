@@ -176,82 +176,24 @@ function ValueTable({
   rows,
   total
 }) {
-  const priceColStyle = { width: "88px", flex: "0 0 auto", textAlign: "right" };
-  const includedColStyle = { width: "150px", flex: "0 0 auto", textAlign: "right" };
-  return React.createElement("div", {
-    className: "value-table",
-    style: {
-      background: "var(--white)",
-      borderRadius: "var(--radius-lg)",
-      boxShadow: "var(--shadow-md)",
-      overflow: "hidden"
-    }
-  },
-  React.createElement("div", {
-    className: "value-table-row value-table-header",
-    style: {
-      display: "flex",
-      alignItems: "center",
-      gap: "16px",
-      padding: "10px 24px",
-      background: "var(--surface-sunken)",
-      fontSize: "11px",
-      fontWeight: 700,
-      letterSpacing: "0.06em",
-      textTransform: "uppercase",
-      color: "var(--text-muted)"
-    }
-  },
-    React.createElement("span", { style: { flex: 1 } }, ""),
-    React.createElement("span", { style: priceColStyle }, "Por separado"),
-    React.createElement("span", {
-      className: "value-table-col-highlight",
-      style: { ...includedColStyle, alignSelf: "stretch", display: "flex", alignItems: "center", justifyContent: "flex-end", background: "oklch(from var(--navy-900) l c h / 0.07)", margin: "-10px -24px -10px 0", padding: "10px 24px 10px 0" }
-    }, "Nuestro Diplomado")
-  ),
-  rows.map((r, i) => React.createElement("div", {
-    key: i,
-    className: "value-table-row",
-    style: {
-      display: "flex",
-      alignItems: "center",
-      gap: "16px",
-      padding: "14px 24px",
-      borderBottom: "1px solid var(--border-subtle)",
-      fontSize: "14px",
-      color: "var(--text-secondary)"
-    }
-  },
-    React.createElement("span", { style: { flex: 1 } }, r.label),
-    React.createElement("span", {
-      style: { ...priceColStyle, fontWeight: 600, color: "var(--text-primary)" }
-    }, r.value),
-    React.createElement("span", {
-      className: "value-table-included value-table-check value-table-col-highlight",
-      style: { ...includedColStyle, alignSelf: "stretch", display: "flex", alignItems: "center", justifyContent: "flex-end", fontWeight: 700, fontSize: "13px", color: "var(--brand-primary)", background: "var(--surface-sunken)", margin: "-14px -24px -14px 0", padding: "14px 24px 14px 0" }
-    }, "✓ Incluido")
-  )),
-  React.createElement("div", {
-    className: "value-table-row",
-    style: {
-      display: "flex",
-      alignItems: "center",
-      gap: "16px",
-      padding: "18px 24px",
-      background: "var(--navy-900)",
-      color: "var(--text-on-inverse)",
-      fontFamily: "var(--font-display)",
-      fontSize: "16px",
-      letterSpacing: "0.02em"
-    }
-  },
-    React.createElement("span", { style: { flex: 1 } }, "Valor total estimado"),
-    React.createElement("span", { style: priceColStyle }, total),
-    React.createElement("span", {
-      className: "value-table-total-note value-table-col-highlight",
-      style: { ...includedColStyle, alignSelf: "stretch", display: "flex", alignItems: "center", justifyContent: "flex-end", fontSize: "13px", lineHeight: 1.3, color: "var(--accent)", background: "oklch(from var(--navy-900) calc(l - 0.04) c h)", margin: "-18px -24px -18px 0", padding: "18px 24px 18px 0" }
-    }, "$4,000 al mes x 12 meses")
-  ));
+  const contents = { display: "contents" };
+  return React.createElement("div", { className: "value-table" },
+    React.createElement("div", { style: contents },
+      React.createElement("span", { className: "vt-cell vt-label vt-header" }, ""),
+      React.createElement("span", { className: "vt-cell vt-price vt-header" }, "Por separado"),
+      React.createElement("span", { className: "vt-cell vt-highlight vt-header" }, "Nuestro Diplomado")
+    ),
+    rows.map((r, i) => React.createElement("div", { key: i, style: contents },
+      React.createElement("span", { className: "vt-cell vt-label" }, r.label),
+      React.createElement("span", { className: "vt-cell vt-price" }, r.value),
+      React.createElement("span", { className: "vt-cell vt-highlight vt-check" }, "✓ Incluido")
+    )),
+    React.createElement("div", { style: contents },
+      React.createElement("span", { className: "vt-cell vt-label vt-total" }, "Valor total estimado"),
+      React.createElement("span", { className: "vt-cell vt-price vt-total" }, total),
+      React.createElement("span", { className: "vt-cell vt-highlight vt-total vt-total-note" }, "$4,000 al mes x 12 meses")
+    )
+  );
 }
 Object.assign(__ds_scope, { ValueTable });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/data/ValueTable.jsx", error: String((e && e.message) || e) }); }
