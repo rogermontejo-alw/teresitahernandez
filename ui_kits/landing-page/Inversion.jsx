@@ -5,7 +5,10 @@ function Inversion() {
     {label:"Inscripción", value:"$3,500 MXN"},
     {label:"🎉 Promoción — inscripción hasta el 15 de septiembre", value:"$2,000 MXN"},
     {label:"Aparta tu lugar con", value:"$1,000 MXN (liquidas el resto antes del 15 de septiembre)"},
-    {label:"Mensualidad (12 módulos, 1 por mes)", value:"$4,000 MXN"},
+    {label:"Mensualidad de septiembre (módulo 1, abono parcial)", value:"$2,000 MXN"},
+    {label:"Mensualidad de octubre (incluye $1,000 diferidos)", value:"$5,000 MXN"},
+    {label:"Mensualidad de noviembre (incluye $1,000 diferidos)", value:"$5,000 MXN"},
+    {label:"Mensualidad de diciembre en adelante", value:"$4,000 MXN"},
     {label:"Kit de espátulas para resina (obligatorio, mes 6)", value:"$5,500 MXN"},
   ];
   return (
@@ -13,7 +16,13 @@ function Inversion() {
       <div className="inversion-grid" style={{maxWidth:"var(--container-max)",margin:"0 auto",display:"grid",gridTemplateColumns:"1fr 600px",gap:48,alignItems:"end"}}>
         <div className="inversion-price-col" style={{maxWidth:760}}>
         <Eyebrow>Inversión</Eyebrow>
-        <h2 style={{fontSize:"var(--text-display-md)",marginBottom:28}}>Formación de alta especialidad, en pagos accesibles</h2>
+        <h2 style={{fontSize:"var(--text-display-md)",marginBottom:12}}>Formación de alta especialidad, en pagos accesibles</h2>
+        <p style={{fontFamily:"var(--font-body)",fontSize:15,color:"var(--brand-primary)",fontWeight:700,marginBottom:8}}>
+          🔥 Solo quedan 2 lugares disponibles
+        </p>
+        <p style={{fontFamily:"var(--font-body)",fontSize:14,color:"var(--text-secondary)",lineHeight:"var(--leading-normal)",marginBottom:20}}>
+          Para estos últimos lugares, tu inscripción y tu primera mensualidad ya no se te juntan en la misma fecha: pagas $2,000 de inscripción y solo $2,000 de la mensualidad de septiembre. Los $2,000 restantes de esa mensualidad se reparten en $1,000 extra durante octubre y $1,000 extra durante noviembre — a partir de diciembre vuelves a pagar $4,000 al mes, como siempre.
+        </p>
         <Card>
           {rows.map((r) => (
             <div key={r.label} className="inversion-row" style={{display:"flex",justifyContent:"space-between",gap:16,padding:"14px 0",borderBottom:"1px solid var(--border-subtle)",fontSize:15}}>
