@@ -13,6 +13,7 @@ function Hero() {
         <p style={{fontFamily:"var(--font-body)",fontSize:"var(--text-body-lg)",color:"oklch(from var(--text-on-inverse) l c h / 0.75)",maxWidth:460,margin:0}}>
           Diplomado teórico-práctico-demostrativo. 12 módulos, cupo limitado a 12 alumnos, en Mérida, Yucatán.
         </p>
+        <Badge tone="lime">🔥 Solo quedan 2 lugares disponibles</Badge>
         <div style={{display:"flex",gap:14,marginTop:4,flexWrap:"wrap"}}>
           <Button href="#signup-form" variant="primary" size="lg">Quiero Apartar Mi Lugar</Button>
         </div>

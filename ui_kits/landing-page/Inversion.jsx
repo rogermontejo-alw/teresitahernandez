@@ -3,8 +3,8 @@ const { Eyebrow, Button, Card } = window.TeresitaHernNdezEstheticDentistryDesign
 function Inversion() {
   const rows = [
     {label:"Inscripción", value:"$3,500 MXN"},
-    {label:"🎉 Promoción — inscripción hasta el 15 de septiembre", value:"$2,000 MXN"},
-    {label:"Aparta tu lugar con", value:"$1,000 MXN (liquidas el resto antes del 15 de septiembre)"},
+    {label:"🎉 Promoción — inscripción hasta el 25 de septiembre", value:"$2,000 MXN"},
+    {label:"Aparta tu lugar con", value:"$1,000 MXN (liquidas el resto antes del 25 de septiembre)"},
     {label:"Mensualidad de septiembre (módulo 1, abono parcial)", value:"$2,000 MXN"},
     {label:"Mensualidad de octubre (incluye $1,000 diferidos)", value:"$5,000 MXN"},
     {label:"Mensualidad de noviembre (incluye $1,000 diferidos)", value:"$5,000 MXN"},
