@@ -19,8 +19,8 @@ function Temario() {
     <section data-screen-label="06 · Temario" style={{background:"var(--surface-page)",padding:"96px 32px"}}>
       <div style={{maxWidth:820,margin:"0 auto"}}>
         <Eyebrow>Contenido</Eyebrow>
-        <h2 style={{fontSize:"var(--text-display-md)",marginBottom:32}}>12 módulos. 100% práctico. Aplicable desde el lunes siguiente.</h2>
-        <Accordion items={modulos.map((m) => ({title:m, body:"Sesión teórico-práctica-demostrativa, un fin de semana al mes."}))} />
+        <h2 style={{fontSize:"var(--text-display-md)",marginBottom:32}}>12 módulos. 100% práctico. Aplicable en tu consultorio al día siguiente.</h2>
+        <Accordion items={modulos.map((m) => ({title:m, body:"Sesión teórico-práctica-demostrativa, un lunes al mes."}))} />
       </div>
     </section>
   );

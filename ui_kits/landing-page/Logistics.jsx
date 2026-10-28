@@ -18,10 +18,10 @@ function Icon({ d }) {
 
 function Logistics() {
   const items = [
-    {icon:icons.calendar, label:"Inicio", value:"18 y 19 de septiembre, 2026"},
-    {icon:icons.clock, label:"Horario", value:"Viernes 4:00–7:00 pm, sábado 9:30 am–1:30 pm (primer fin de semana de cada mes)"},
+    {icon:icons.calendar, label:"Inicio", value:"11 de enero, 2027"},
+    {icon:icons.clock, label:"Horario", value:"Lunes 8:30 am–12:30 pm y 3:00–6:00 pm (un lunes al mes)"},
     {icon:icons.pin, label:"Lugar", value:"Clínica Dental Hernández Tello, Mérida, Yucatán"},
-    {icon:icons.users, label:"Cupo", value:"Limitado a 12 alumnos"},
+    {icon:icons.users, label:"Cupo", value:"Limitado a 6 alumnos"},
     {icon:icons.box, label:"Incluye", value:"Material para prácticas en tipodonto, material bibliográfico y refrigerios"},
   ];
   return (
